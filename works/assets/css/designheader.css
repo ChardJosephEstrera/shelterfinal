@@ -1,0 +1,88 @@
+html, body {
+    font-family: 'Lusitana', serif; /* Apply Lusitana to all text */
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3; /* Light background for readability */
+    color: #333;
+    line-height: 1.6; /* Improve readability */
+}
+
+/* Apply Lusitana font universally to all elements */
+* {
+    font-family: 'Lusitana', serif;
+}
+
+/* Wrapper Section */
+.wrapper {
+    background-color: #DEAC80; /* Warm background color */
+}
+
+/* Header Styling */
+.header-container { 
+    background-color: #EEEDEB;
+    padding: 2px 30px; /* Adjust padding for better spacing */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for header */
+    width:100%;
+}
+
+/* Logo and Title Styling */
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.logo h1 {
+    font-size: 28px; 
+    margin: 0;
+    color: #DEAC80;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    font-style: bold;
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Center the navigation links */
+    gap: 20px; /* Adjusted gap for tighter spacing between links */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center; /* Ensure text and icon align properly */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #DEAC80;
+    display: flex;
+    align-items: center; /* Ensure text and icon align properly */
+    font-size: 18px;
+    transition: color 0.3s ease; /* Smooth color change on hover */
+    font-family: "Roboto Slab", serif;
+    font-weight: 1000;
+}
+
+nav ul li a:hover {
+    color: #ffffff; /* Highlight color for links on hover */
+}
+
+nav svg {
+    margin-left: 5px;  /* Ensure there's space between the link text and icon */
+    width: 30px;  /* Fixed width for the icon */
+    height: 20px; /* Fixed height for the icon */
+    vertical-align: middle; /* Vertically center the icon with the text */
+    stroke:#DEAC80;
+}

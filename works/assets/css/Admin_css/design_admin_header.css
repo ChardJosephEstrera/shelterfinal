@@ -1,0 +1,92 @@
+html, body {
+    font-family: 'Lusitana', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f300;
+    color: #333;
+    line-height: 1.6;
+}
+
+* {
+    font-family: 'Lusitana', serif;
+}
+
+.wrapper {
+    background-color: #fff6ef;
+}
+
+.header-container { 
+    position: fixed;
+    background-color: #DEAC80;
+    padding: 2px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 70px;
+    margin-right: 1px;
+}
+
+.logo img:hover {
+    background-color: rgba(255, 255, 255, 0.072);
+}
+
+.logo h1 {
+    font-size: 28px; 
+    margin: 0;
+    color: #ffffff;
+    font-family: "Roboto Slab", serif;
+    font-weight: 1000;
+    font-style: normal;
+}
+
+.logo h1 .text-border {
+    color: rgb(255, 255, 255);
+    text-shadow: 10px 10px 0 rgb(255, 255, 255);
+}
+
+.logo li:hover {
+    background-color: rgba(255, 255, 255, 0.439);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 1000;
+    font-family: "Roboto Slab", serif;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #f3f2f22c;
+}
+
+nav svg {
+    margin-left: 5px;  /* Ensure there's space between the link text and icon */
+    width: 30px;  /* Fixed width for the icon */
+    height: 20px; /* Fixed height for the icon */
+    vertical-align: middle; /* Vertically center the icon with the text */
+
+}

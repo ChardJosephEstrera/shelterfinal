@@ -1,0 +1,28 @@
+/* General Body and HTML Reset */
+html, body {
+    font-family: 'Lusitana', serif; /* Apply Lusitana to all text */
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    background-color: #ebebeb00 !important;
+    line-height: 1.6; /* Improve readability */
+   
+}
+
+/* Apply Lusitana font universally to all elements */
+* {
+    font-family: 'Lusitana', serif;
+}
+
+
+.container  {
+    
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;    /* Centers vertically */
+    background-color: #e7e7e700;
+    max-width: 100%;
+    height: 100%;          /* Ensures it takes the full viewport height */
+    text-align: center;
+    z-index: 1;
+}

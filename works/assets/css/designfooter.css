@@ -1,0 +1,27 @@
+.foot {
+
+    background-color: #f6a95cc2;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+.foot h5{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+.foot a {
+     color: black;  /* Change this to your desired color */
+      text-decoration: none;  
+}
+.foot a:hover {
+    background-color:white;
+}
+.info li {
+  color:black;
+}

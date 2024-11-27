@@ -1,0 +1,107 @@
+html, body {
+    font-family: 'Lusitana', serif; /* Apply Lusitana to all text */
+    margin: 0;
+    padding: 0;
+    background-color: #fefcf9cc;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.adopt-intro-pic-1 {
+    width: 100%;
+    height: 150vh; /* Full height of the viewport */
+    background-image: url('http://localhost/works/assets/img/adopt-intro-pic1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the text and button horizontally */
+    justify-content: flex-start; /* Align items starting from the top */
+}
+
+.adopt-intro-pic-1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.21); /* Darker overlay */
+    z-index: 1;
+}
+
+.adopt-intro-text1 {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    margin-top: 650px; /* Move text down by 30% of the viewport height */
+    z-index: 2;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+button.btn-secondary {
+    background-color: #fffefe71;
+    color: rgb(7, 7, 7);
+    border: none;
+    border-radius: 30px;
+    padding: 12px 25px;
+    font-size: 35px;
+    cursor: pointer;
+    margin-top: 20px; /* Space between text and button */
+    transition: background-color 0.3s ease; /* Ensure smooth transition */
+}
+
+/* Hover effect with higher specificity */
+button.btn-secondary:hover {
+    background-color: #f2f2f260 !important; /* Force override with !important */
+}
+
+/* Optional: If the button is being blocked by other elements */
+.adopt-intro-pic-1 button.btn-secondary {
+    position: relative;
+    z-index: 10; /* Ensure the button is above other elements */
+}
+.Adopt-Requirements {
+    background-color: #f8f8f8; /* Light background color for the section */
+    padding: 50px 0; /* Add space above and below */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+/* Style for the heading */
+.requirements-heading {
+    color: #333; /* Dark text color */
+    font-weight: bold; /* Make the heading bold */
+    text-transform: uppercase; /* Uppercase text for emphasis */
+    margin-bottom: 30px; /* Space below the heading */
+    letter-spacing: 2px; /* Increase spacing between letters */
+}
+
+/* Style for the list items */
+.Values .list-group-item {
+    background-color: #fefefe; /* Light background for each item */
+    border-radius: 5px; /* Rounded corners for list items */
+    border: 1px solid #ddd; /* Light border around each item */
+    color: #333; /* Dark text for the list */
+    font-size: 1.1rem; /* Slightly larger text */
+    transition: background-color 0.3s; /* Smooth background change on hover */
+}
+
+/* Hover effect for list items */
+.Values .list-group-item:hover {
+    background-color: #e9e9e9; /* Slightly darker on hover */
+}
+
+/* Optional: Add padding or margins around the list items */
+.Values .list-group-item {
+    padding: 15px;
+    margin-top: 10px; /* Space between list items */
+}

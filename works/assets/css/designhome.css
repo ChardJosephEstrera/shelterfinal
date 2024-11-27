@@ -1,0 +1,122 @@
+/* General Body and HTML Reset */
+html, body {
+    font-family: 'Lusitana', serif; /* Apply Lusitana to all text */
+    margin: 0;
+    padding: 0;
+    background-color: #f8c674cc;
+    color: #333;
+    line-height: 1.6; /* Improve readability */
+}
+
+/* Apply Lusitana font universally to all elements */
+* {
+    font-family: 'Lusitana', serif;
+}
+
+
+/* Main Content Wrapper */
+.wrapper-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 150px 40px; /* Added more padding for better content spacing */
+    margin-top: -10px;
+    gap: 40px; /* Added space between text and image */
+}
+
+/* Info Text Section */
+.info-text-1 {
+    font-size: 30px;
+    max-width: 50%;
+    line-height: 1.6;
+    color: #ffffff; /* Ensure readability */
+}
+
+.info-text-1 h3 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-weight: bold; /* Bold for emphasis */
+}
+
+/* Info Picture Section */
+.info-pic-1 img {
+    width: 450px; /* Adjusted for a more balanced look */
+    height: auto;
+    border-radius: 15px; /* Rounded corners for image */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Soft shadow for images */
+}
+
+/* Button Styling */
+.wrapper-button button {
+    background-color: #fefefe68;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 30px;
+    padding: 12px 25px; /* Slightly bigger padding */
+    font-size: 35px; /* Adjusted for better proportion */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-left:40px;
+    
+}
+
+.wrapper-button button:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+
+/* Background Section */
+.wrapper-info-2 {
+    background-image: url('http://localhost/works/assets/img/adopt-indexpage.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+    /* Use an aspect ratio */
+    aspect-ratio: 16 / 9; /* Replace 16 / 9 with the actual aspect ratio of your image */
+    height: auto; /* Height adjusts dynamically */
+}
+
+
+/* Secondary Text Section */
+.wrapper-2-text-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 100px;
+    padding-right: 20px;
+    max-width: 50%;
+    line-height: 1.5;
+}
+
+.wrapper-2-text-info h1 {
+    color: white;
+    font-size: 40px;
+    text-align: right;
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 2px 2px 8px rgb(8, 8, 8); /* Enhanced text shadow */
+}
+
+/* Secondary Button Styling */
+.wrapper-button2 button {
+    background-color: rgba(245, 245, 244, 0.7);
+    color: rgb(6, 5, 5);
+    border: none;
+    border-radius: 30px;
+    padding: 12px 30px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-right: 110px;
+}
+
+.wrapper-button2 button:hover {
+    background-color: rgb(194, 193, 193);
+    transform: translateY(-5px); /* Slight lift on hover */
+}
